@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Tags Test</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Html Tags Test</h1>
+      <p>How many HTML tags can you remember? <span id="remain" role="status" aria-live="polite">113</span> to recall&hellip;</p>
+    </header>
+
+    <main>
+      <form id="form">
+        <label for="guess">Tag:</label>
+        <input id="guess" type="text" placeholder="tag" autofocus autocomplete="off">
+        <button id="button" type="submit" aria-controls="remain guessed">Enter</button>
+      </form>
+      <ul id="guessed" role="status" aria-live="polite" aria-atomic="false"></ul>
+      <noscript>You need to enable JavaScript to make guesses.</noscript>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

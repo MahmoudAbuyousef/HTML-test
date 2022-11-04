@@ -1,0 +1,87 @@
+/* Start Global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px 40px;
+  color: #fff;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li::before {
+  content: "<";
+}
+
+ul li:after {
+  content: ">";
+}
+
+/* End Global */
+
+/* Start Header */
+header {
+  text-align: center;
+  margin: 50px 0;
+}
+
+header h1 {
+  margin: 20px 0;
+}
+
+/* End Header */
+
+/* Start Main */
+main {
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #0075ff;
+}
+
+main form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+main form label {
+  color: #fff;
+}
+
+main form input {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  border-right: none;
+  border: none;
+}
+
+main form button {
+  display: flex;
+  padding: 10px 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: none;
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+
+/* End Main */
